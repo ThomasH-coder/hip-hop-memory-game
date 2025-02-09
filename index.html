@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hip-Hop Memory Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="volume-container">
+        <label for="volume-control" class="volume-label">Volume:</label><span style="padding-left: 9px"></span>
+      <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+    </div>
+    <img src="./images/Title.png.png" class="title-img">
+    <h1>90's Rapper Edition</h1>
+    <p id="timer">Time: 0s</p>
+    <button id="restart">Restart</button>
+    <button id="mute-button">Mute</button>
+    
+    
+    <div id="game-board" class="game-board"></div>
+    
+  </div>
+  <div class="support-container">
+    <a href="https://cash.app/$SirThomasH" target="_blank" class="support-button">
+      💰 Support My Work
+    </a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
